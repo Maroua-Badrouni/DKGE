@@ -1,5 +1,5 @@
 #@title Choose your model and training parameters
-kg_model = "RotatE" #@param ["TransE", "ComplEx", "TransR"]
+kg_model = "TransE" #@param ["TransE", "ComplEx", "TransR"]
 epochs = 1000 #@param {type:"slider", min:10, max:1000, step:10}
 batch_size = 128 #@param {type:"number"}
 learning_rate = 1e-3 #@param {type:"number"}
